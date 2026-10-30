@@ -36,7 +36,8 @@ the parser leaves it as it is. It only comes through the form, only for tenants 
 **`one-day`: a date moves by one day.** "Tuesday 12 May. Calendar says Monday 11 May." "Client in
 Lisbon got Tuesday. Client in Toronto got Monday. Same meeting." A month-first parser swaps day and
 month; it cannot move a date by one day. A time zone applied at a day boundary can. The desk noticed
-these (`desk-notes.json`) and kept them under the parser by tenant; this page counts them on their own.
+these (`desk-notes.json`) and keeps them counted under the parser by tenant. They stay counted there,
+and have a ticket of their own.
 
 <Callout kind="warn">
 When the parser fix ships, #4471 will look closed. The form hint and the one-day move stay open,
